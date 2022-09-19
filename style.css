@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+body{
+    padding: 0;
+}
+
+#geral{
+    color: #404040;
+    margin: 0 auto;
+    width: 1010px;
+}
+
+#top-page{
+    background-color: #1D3251;
+    height: 150px;
+}
+
+.sigla{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 78px;
+    color: white;
+    margin-left: 80px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 12px;
+}
+
+.nome{
+    margin-top: 0;
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #cdecda;
+    margin-left: 20px;
+}
+
+.linha{
+    border-top: 2px solid;
+    color: #8b96a5;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    width: 600px;
+}
+
+.subtitulo{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: px;
+    color: #8b96a5;
+}
+
+.menu{
+    list-style: none;
+    float: left;
+    background-color: #1D3251;
+    padding-left: 10px;
+    padding-right: 18px;
+    margin: 0 0 0 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+}
+
+.menu li a{
+    color:white; 
+    text-decoration:none; 
+    padding:2px; 
+}
+
+.green-bar{
+    background-color: #8af2b5;
+    position: relative;
+    margin: 0 0 0 0;
+    float: inline-end;
+    height: 40px;
+    border: hidden;
+}
+
+#esquerda{
+    float: left;
+    width: 346px;
+    position: relative;
+}
+
+.img{
+    size: 100%;
+    width: 36px;
+    padding: 2px;
+    border-radius: 22%;
+}
+
+#dados-contato{
+    position: relative;
+    margin: 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+
+}
+
+.contatos{
+    background-color: #F0F0F0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    position: relative;
+    padding-right: 20px;
+    display: inline-block;    
+}
+
+#dados-habilidades{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.habilidades{
+    position: relative;
+    display: inline-block;   
+}
+
+.blue{
+    color: #1D3251;
+    font-weight: 580;
+    letter-spacing: 10px;
+}
+
+#direita{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 3px;
+    width: 644px;
+    text-align: justify;
+    display: inline-block;
+    margin-left: 18px;
+    position: relative;
+}
+
+
+.topico{
+    color: #1D3251;
+    font-weight: 600;
+}
+
+.tempo{
+    color: #1D3251;
+    font-size: 11px;
+    font-weight: 700;
+    font-style: italic;
+}
